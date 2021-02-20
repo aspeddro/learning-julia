@@ -35,3 +35,8 @@ ag = 3
 2ag^2 - 5ag + 2 # escrevendo de forma mais limpa
 3^2ag
 √25ag # é avaliado como sqrt(25) * ag e não sqrt(25 * ag)
+
+# Literal zero e um
+zero(Float32)
+zero(Float64)
+one(BigFloat)
