@@ -104,10 +104,24 @@ ceil(2.3) |> print #arredondamento pra cima
 
 trunc(2.5) |> Int64 # trunca
 
-# Funções de divisão https://docs.julialang.org/en/v1/manual/mathematical-operations/#Division-functions
+# Funções de divisão
+
 div(5,2) # div truncada
 fld(10, 3) # divisão de piso
 cld(10, 3) # divisão de teto
 rem(120, 2) # resto da div
+mod(10, 100)
+divrem(2, 2) # retorna (div(x, y), rem(x, y))
+gcd(3, 6, 9) # maior divisor comum positivo
+lcm(27, 3, 2) # menor multiplo comum positivo
 
 
+# Funções de sinal e valor absoluto
+
+abs(-2) # modulo
+abs2(-5) # abs()^2
+sign(-2) # sinal do valor
+signbit(-2) # bit do sinal
+
+tan(pi/4) # 45 graus
+tand(45)
