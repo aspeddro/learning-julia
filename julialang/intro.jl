@@ -23,10 +23,8 @@ flNumberS = 1.
 
 # valores especiais, Inf16, Inf32, Inf
 
-
 # epsilon
 eps() # or eps(FloatBit)
-
 nextfloat(1.0)
 prevfloat(1.0)
 
@@ -40,3 +38,4 @@ ag = 3
 zero(Float32)
 zero(Float64)
 one(BigFloat)
+print()
